@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@quasar/extras": "^1.17.0",
+    "pinia": "^3.0.4",
+    "quasar": "^2.18.5",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.10.0",
+    "sass-embedded": "^1.93.3"
+  }
+}
