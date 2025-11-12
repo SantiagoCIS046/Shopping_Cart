@@ -446,9 +446,9 @@ onMounted(() => {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-
 .product-description {
   font-size: 0.85rem;
   color: #7f8c8d;
@@ -458,6 +458,7 @@ onMounted(() => {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
