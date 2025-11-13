@@ -502,6 +502,7 @@ onMounted(() => {
   max-height: calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .cart-header {
@@ -735,6 +736,7 @@ onMounted(() => {
     position: relative;
     top: 0;
     max-height: none;
+    overflow: visible;
   }
 
   .products-grid {
