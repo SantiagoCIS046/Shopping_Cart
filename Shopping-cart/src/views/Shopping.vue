@@ -143,6 +143,14 @@
 import { ref, computed, watch, onMounted } from "vue";
 import { useQuasar } from "quasar";
 
+// Importar imágenes
+import mouseImage from "/Mouses.jpg";
+import playstationImage from "/playstation5.jpg";
+import samsungImage from "/Samsung_Ultra.jpg";
+import tabletImage from "/Tablet_gamer.jpg";
+import tecladoImage from "/Teclado.jpg";
+import sonyImage from "/WH-1000X-M6-Feature-Overview.png";
+
 const $q = useQuasar();
 
 const products = ref([
@@ -151,42 +159,42 @@ const products = ref([
     name: "Mouse Gaming",
     description: "Mouse ergonómico para gaming profesional",
     price: 49.99,
-    image: "/Mouses.jpg",
+    image: mouseImage,
   },
   {
     id: 2,
     name: "PlayStation 5",
     description: "Consola de última generación",
     price: 499.99,
-    image: "/playstation5.jpg",
+    image: playstationImage,
   },
   {
     id: 3,
     name: "Samsung Ultra",
     description: "Smartphone de alta gama",
     price: 899.99,
-    image: "/Samsung_Ultra.jpg",
+    image: samsungImage,
   },
   {
     id: 4,
     name: "Tablet Gamer",
     description: "Tablet potente para juegos",
     price: 599.99,
-    image: "/Tablet_gamer.jpg",
+    image: tabletImage,
   },
   {
     id: 5,
     name: "Teclado Mecánico",
     description: "Teclado mecánico RGB",
     price: 129.99,
-    image: "/Teclado.jpg",
+    image: tecladoImage,
   },
   {
     id: 6,
     name: "Audífonos Sony WH-1000XM6",
     description: "Audífonos con cancelación de ruido",
     price: 349.99,
-    image: "/WH-1000X-M6-Feature-Overview.png",
+    image: sonyImage,
   },
 ]);
 
