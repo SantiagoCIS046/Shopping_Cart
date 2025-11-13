@@ -144,12 +144,12 @@ import { ref, computed, watch, onMounted } from "vue";
 import { useQuasar } from "quasar";
 
 // Importar imágenes
-import mouseImage from "@/assets/Mouses.jpg";
-import playstationImage from "@/assets/playstation5.jpg";
-import samsungImage from "@/assets/Samsung_Ultra.jpg";
-import tabletImage from "@/assets/Tablet_gamer.jpg";
-import tecladoImage from "@/assets/Teclado.jpg";
-import sonyImage from "@/assets/WH-1000X-M6-Feature-Overview.png";
+import mouseImage from "/Mouses.jpg";
+import playstationImage from "/playstation5.jpg";
+import samsungImage from "/Samsung_Ultra.jpg";
+import tabletImage from "/Tablet_gamer.jpg";
+import tecladoImage from "/Teclado.jpg";
+import sonyImage from "/WH-1000X-M6-Feature-Overview.png";
 
 const $q = useQuasar();
 
