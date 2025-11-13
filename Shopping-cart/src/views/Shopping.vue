@@ -98,7 +98,7 @@
                       flat
                       dense
                       round
-                      size="xs"
+                      size="sm"
                       color="negative"
                       icon="delete"
                       @click="removeFromCart(item)"
@@ -676,6 +676,7 @@ onMounted(() => {
 .cart-item-controls {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.4rem;
   flex-shrink: 0;
 }
